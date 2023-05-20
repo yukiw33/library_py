@@ -1,6 +1,10 @@
 # 標準入力に使うコードのメモ
 
-# 一番良くある形
+# 一番良くある形　基本これを採択する
+# sys.stdin.readline()
+import sys
+input = sys.stdin.readline
+
 N = int(input())
 A = list(map(int, input().split()))
 
