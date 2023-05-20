@@ -1,5 +1,9 @@
 # 標準入力に使うコードのメモ
 
+# 一番良くある形
+N = int(input())
+A = list(map(int, input().split()))
+
 # 文字列を1行入力
 s = input()
 
@@ -24,3 +28,5 @@ l = [input() for _ in range(N)]
 # 改行区切りの複数行の整数をリストに入力
 l = [int(input()) for _ in range(N)]
 
+# 区切り文字を指定して入力を受け取る
+m, d = map(int, input().split("/"))
