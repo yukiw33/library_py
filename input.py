@@ -34,3 +34,6 @@ l = [int(input()) for _ in range(N)]
 
 # 区切り文字を指定して入力を受け取る
 m, d = map(int, input().split("/"))
+
+# 整数のタプルリストを構築する
+l = [list(map(int, input().split())) for _ in range(N)]
